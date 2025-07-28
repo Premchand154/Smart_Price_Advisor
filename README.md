@@ -3,6 +3,7 @@ A smart Streamlit web app that predicts a fair price for used/local products and
 
 ---------------
 ### Problem Statement:
+
 In the second-hand market, both buyers and sellers often face a common issue — what's the right price? Overpricing leads to no buyers; underpricing means losses.
 This app acts like a local price advisor by analyzing key factors like brand, condition, urgency, demand, and more, helping:
 1. Sellers list their product at the best price
@@ -10,12 +11,14 @@ This app acts like a local price advisor by analyzing key factors like brand, co
 3. Both parties get insights into what influenced the prediction
 ---
 ## Features:
+
 - Predicts fair price using a trained XGBoost model  
 - Suggests whether the price is negotiable or fixed  
 - Shows SHAP-based feature contributions for transparency  
 - Built with an interactive Streamlit interface
 ---
 ## Why XGBoost?
+
 We tried various models (Linear Regression, Decision Tree, Random Forest), but XGBoost delivered the best performance:
 - Higher accuracy with early stopping and regularization
 - Efficient on tabular structured data
